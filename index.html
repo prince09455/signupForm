@@ -19,11 +19,13 @@
                         <p class="msg d-none">successfully loged in</p>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Username</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter email">
+                            <div id="username_feedback" class="invalid-feedback">You left the field empty, please fill it</div>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <div id="password_feedback" class="invalid-feedback">You left the field empty, please fill it</div>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-block login_submit">LogIn With Email</button>
@@ -35,16 +37,19 @@
                         <p class="msg d-none">Account Created successfully</p>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Full Name</label>
-                            <input type="Text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Input name">
+                            <input type="Text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Input name">
+                            <div id="name_feedback" class="invalid-feedback">You left the field empty, please fill it</div>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Username</label>
-                            <input type="text" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp" placeholder="Input Username">
+                            <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Input Username">
+                            <div id="username_feedback" class="invalid-feedback">You left the field empty, please fill it</div>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Input Password">
+                            <input type="password" class="form-control" id="password" placeholder="Input Password">
+                            <div id="password_feedback" class="invalid-feedback">You left the field empty, please fill it</div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block login_submit">Create</button>
                         <button class="btn btn-white btn-block my-3 login_page">LogIn With Email</button>
