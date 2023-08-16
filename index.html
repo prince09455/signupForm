@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid content_page px-0">
+        <div class="row no-gutters">
+            <div class="col-12 col-md-12 col-lg-4 order-1 order-sm-2 order-md-2 order-lg-1 form_sec d-none d-sm-block">
+                <div class="form_sec d-flex align-items-center justify-content-center w-100">
+                    <form class="w-100 login">
+                        <h5 class="mb-3">LogIn</h5>
+                        <p class="msg d-none">successfully loged in</p>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block login_submit">LogIn With Email</button>
+                        <button class="btn btn-white btn-block my-3 btn_signup">Create a New Account</button>
+                    </form>
+
+                    <form class="w-100 signUp d-none">
+                        <h5 class="mb-3">Create a New Account</h5>
+                        <p class="msg d-none">Account Created successfully</p>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input type="Text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Input name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input type="text" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp" placeholder="Input Username">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Input Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block login_submit">Create</button>
+                        <button class="btn btn-white btn-block my-3 login_page">LogIn With Email</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-8 order-2 order-sm-1 order-md-1 order-lg-2 slide_sec">
+                <div class="slider d-flex align-items-md-center justify-content-center position-relative">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="slide_img d-flex align-items-center justify-content-center">
+                                    <img src="./img/slide1.svg" alt="slide" width="400" height="300">
+                                </div>
+                                <p class="text-center my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br class="d-none d-md-block"> Consequatur, fugiat fugit odio laudantium atque cumque quis <br class="d-none d-md-block"> recusandae neque temporibus? Repellendus.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide_img d-flex align-items-center justify-content-center">
+                                    <img src="./img/slide2.svg" alt="slide" width="400" height="300">
+                                </div>
+                                <p class="text-center my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br class="d-none d-md-block"> Consequatur, fugiat fugit odio laudantium atque cumque quis <br class="d-none d-md-block"> recusandae neque temporibus? Repellendus.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide_img d-flex align-items-center justify-content-center">
+                                    <img src="./img/slide3.svg" alt="slide" width="400" height="300">
+                                </div>
+                                <p class="text-center my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br class="d-none d-md-block"> Consequatur, fugiat fugit odio laudantium atque cumque quis <br class="d-none d-md-block"> recusandae neque temporibus? Repellendus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-white btn-block d-block d-md-none absolute_btn position-absolute">LogIn With Email</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

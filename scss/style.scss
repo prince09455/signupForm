@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    @media (max-width: 576px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    &>[class^="col-"],
+    &>[class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.content_page {
+    height: 100vh;
+    .form_sec {
+        height: 100vh;
+        padding: 0 3rem;
+        @media (min-width: 576px) and(max-width: 992px) {
+            height: 55vh;
+            padding: 2rem auto;
+        }
+        .msg {
+            padding: 0 1rem;
+            background: rgb(242, 246, 236);
+            color: green;
+            border-radius: 10px;
+        }
+    }
+    .slider {
+        height: 100vh;
+        background: blue;
+        @media (min-width: 576px) and(max-width: 992px) {
+            height: 45vh;
+        }
+        .absolute_btn {
+            bottom: 140px;
+            padding: 1rem;
+            margin: 0 auto;
+            max-width: 80%;
+        }
+        .carousel-item {
+            padding: 3rem;
+            color: #fff;
+            @media (max-width: 576px) {
+                padding: 4rem 1rem;
+            }
+            .carousel-inner {
+                height: 100vh;
+                background-color: red;
+                .carousel-item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+.carousel-indicators {
+    @media (max-width: 992px) and (min-width: 576px) {
+        bottom: 2rem;
+    }
+    @media (max-width:576px) {
+        bottom: 16rem;
+    }
+}
+
+img {
+    @media (max-width: 576px) {
+        width: 275px;
+        height: 250px;
+    }
+}
